@@ -98,5 +98,7 @@ Taille d'un automate : (taille int)*2 + (taille int)*NB_MAX_ETATS + (taille int)
 
 = 4*2 + 4*128 + 4*128*128 + 1*128*128*128 = 2163208 octets
 
+![Alt text](http://argonia.fr/inf123/tp7/automate.png)
+
 ### [i]
 L'etat final de cet automate est l'etat 2
