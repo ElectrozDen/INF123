@@ -68,7 +68,7 @@ void lecture_automate(automate *A, FILE *f){
         fscanf(f, "%i", &etats_finals);
         for(i = 0; i < etats_finals ; i++){
                 fscanf(f, "%i", &etat);
-                A->etats_finals[i] = etat;
+                A->etats_finals[etat] = 1;
         }
 
         fscanf(f, "%i", &nb_trans);
